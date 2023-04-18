@@ -10,7 +10,7 @@ b=float(input("Enter a second number include float values: "))
 a=int(round(a))
 b=int(round(b))
 
-ask=str(input("\none of the numbers is the hypotenuse of a right triangle?\n yes or no"))
+ask=str(input("\none of the numbers is the hypotenuse of a right triangle?\n yes or no: "))
 
 if ask == "yes" and a>b:
     print(a, "is the hypotenuse of a right triangle!")
